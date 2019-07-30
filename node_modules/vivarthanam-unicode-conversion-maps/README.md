@@ -1,0 +1,1 @@
+# vivarthanam-unicode-conversion-maps

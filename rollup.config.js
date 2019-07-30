@@ -5,21 +5,21 @@ let pkg = require('./package.json');
 let external = Object.keys(pkg.dependencies);
 
 export default {
-  entry: 'lib/vivarthanam-converter.js',
+  input: 'lib/vivarthanam-converter.js',
   plugins: [
     babel(babelrc())
   ],
   external: external,
-  targets: [
+  output: [
     {
-      dest: pkg.main,
+      file: pkg.main,
       format: 'umd',
-      moduleName: 'ekarupa',
+      name: pkg.name,
       sourceMap: true
     },
     {
-      dest: pkg.module,
-      format: 'es',
+      file: pkg.module,
+      format: 'esm',
       sourceMap: true
     }
   ]
