@@ -1,6 +1,6 @@
 {
   "name": "vivarthanam-converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The core library that converts between ascii and unicode",
   "main": "dist/vivarthanam-converter.umd.js",
   "module": "dist/vivarthanam-converter.js",
@@ -23,6 +23,6 @@
     "lerna": "^3.4.3"
   },
   "dependencies": {
-    "vivarthanam-unicode-conversion-maps": "1.0.0"
+    "vivarthanam-unicode-conversion-maps": "1.0.1"
   }
 }
